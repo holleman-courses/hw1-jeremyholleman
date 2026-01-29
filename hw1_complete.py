@@ -353,3 +353,4 @@ if __name__ == '__main__':
     model50k = keras.models.load_model("./best_model.h5")
     model50k.evaluate(val_images, val_labels)
 
+
