@@ -20,6 +20,7 @@ jobs:
         timeout: 10
         max-score: 10
         setup-command: 'pip install tensorflow==2.14.1 matplotlib pillow'
+        pytest-args: -vv -s
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
